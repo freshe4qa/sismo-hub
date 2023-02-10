@@ -1,6 +1,5 @@
 // eslint-disable-next-line import/order
 import { GroupGeneratorsLibrary } from "topics/group-generator";
-import GhoTestnetLaunchLensCollector from "./-gho-testnet-launch-lens-collector";
 import Lrcrypto from "./-lrcrypto";
 import OxlegionLensFollower from "./0xlegion-lens-follower";
 import a01kAlpha from "./a01k-alpha";
@@ -108,6 +107,7 @@ import gamejustuAchievements from "./gamejutsu-achievements";
 import garagepunk from "./garagepunk";
 import gem from "./gem";
 import gen0Dagorians from "./gen-0-dagorians";
+import GhoTestnetLaunchLensCollector from "./gho-testnet-launch-lens-collector";
 import gitcoinGrantsAggregatedRoundsDonors from "./gitcoin-grants-aggregated-rounds-donors";
 import gitcoinGrantsRoundsApiDonors from "./gitcoin-grants-rounds-api-donors";
 import gitcoinGrantsRoundsDonors from "./gitcoin-grants-rounds-donors";
@@ -353,7 +353,6 @@ import zl019 from "./zl019";
 
 
 export const groupGenerators: GroupGeneratorsLibrary = {
-  "-gho-testnet-launch-lens-collector": GhoTestnetLaunchLensCollector,
   "-lrcrypto": Lrcrypto,
   "0xlegion-lens-follower": OxlegionLensFollower,
   "996-icu": icu996,
@@ -462,6 +461,7 @@ export const groupGenerators: GroupGeneratorsLibrary = {
   "garagepunk": garagepunk,
   "gem": gem,
   "gen-0-dagorians": gen0Dagorians,
+  "gho-testnet-launch-lens-collector": GhoTestnetLaunchLensCollector,
   "gitcoin-grants-aggregated-rounds-donors": gitcoinGrantsAggregatedRoundsDonors,
   "gitcoin-grants-rounds-api-donors": gitcoinGrantsRoundsApiDonors,
   "gitcoin-grants-rounds-donors": gitcoinGrantsRoundsDonors,
