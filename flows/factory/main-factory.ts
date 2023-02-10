@@ -917,7 +917,7 @@ export const mainFactoryFlows: Flow[] = [
     congratulationTexts: [],
   },
   {
-    path: "-gho-testnet-launch-lens-collector",
+    path: "gho-testnet-launch-lens-collector",
     attester: hydraS1AccountboundAttester.name,
     networks: [Network.Goerli, Network.Mumbai],
     attesterType: "hydra-s1",
